@@ -1,3 +1,4 @@
+# human Face detection Program 
 import cv2
 
 face = cv2.CascadeClassifier("C:\\Users\\Jamshed Butt\\AppData\\Local\\Programs\\Python\\Python310\\Lib\\site-packages\\cv2\\data\\haarcascade_frontalface_default.xml")
