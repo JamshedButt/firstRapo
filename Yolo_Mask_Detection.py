@@ -26,7 +26,7 @@ print("fps:", fps)
 #Set Rondomly Color
 colors = np.random.uniform(0, 255, size=(100, 3))
 
-
+#Start the Video
 while cap.isOpened():
     #Read the Frames
     ret, frame = cap.read()
