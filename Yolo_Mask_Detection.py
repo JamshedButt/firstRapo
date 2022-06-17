@@ -86,5 +86,6 @@ while cap.isOpened():
     else:
         break
 
+#end the video 
 cap.release()
 cv2.destroyAllWindows() 
